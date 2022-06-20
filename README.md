@@ -1,24 +1,7 @@
-# todo-app
+# vue3-typescript-ecommerce-crud-app
 
-## Project setup
-```
-npm install
-```
+First Typescript project for learning purposes.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Description
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+First Typescript project with vue3. Think that repo is a playground. Check out the code and don't hesistate to make pull request.
