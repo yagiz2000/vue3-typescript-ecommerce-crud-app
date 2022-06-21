@@ -1,7 +1,12 @@
 <template>
-  <div class="row">
+  <div class="row" v-if="products.length > 0">
     <div class="col-md-4" v-for="product in products" :key="product.id">
       <ProductCard :product="product" />
+    </div>
+  </div>
+  <div v-else class="row">
+    <div class="col-md-12">
+      <h1>Please Add Product</h1>
     </div>
   </div>
 </template>
@@ -9,9 +14,7 @@
 <script setup lang="ts">
 import ProductCard from "@/components/ProductCard.vue";
 import useProducts from "@/composables/Product";
-import IProduct from "@/types/Product";
 const { products } = useProducts();
-console.log(products);
 </script>
 
 <style scoped></style>
